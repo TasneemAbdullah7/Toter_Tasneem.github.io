@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Toter_Tasneem</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <style>
+    .more-content {
+      display: none;
+    }
+
+    .img-gallery img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .img-gallery ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .img-gallery li {
+      margin-bottom: 5px;
+    }
+
+    .read-more-btn {
+      color: #007bff;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+ /* Change color of the nav items when hovered */
+ .navbar-nav .nav-item .nav-link:hover {
+   color: #4CAF50; /* Change to your preferred color */
+   background-color: #000; /* Optional: background color on hover */
+   transition: all 0.3s ease; /* Smooth transition */
+ }
+
+
+ /* You can also change the font weight or add underline for the active link */
+ .navbar-nav .nav-item.active .nav-link {
+   font-weight: bold;
+   text-decoration: underline;
+}
+  </style>
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section starts -->
+    <header class="header_section long_section px-0">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            Toter
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html"> About Us <span class="sr-only">(current)</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="quote_btn-container">
+            <a href="">
+              <span>
+                Login
+              </span>
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+            <form class="form-inline">
+              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="Main About Image">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>About Us</h2>
+            </div>
+            <p>
+              Toter is a trash can and dumpster manufacturer that offers various products for homeowners,
+              municipalities, and waste haulers. The company prides itself on the durability and convenience
+              of its products. They also offer services such as cart assembly, delivery, and maintenance.
+            </p>
+            <a class="read-more-btn" onclick="toggleReadMore()">Read More</a>
+            <div id="read-more" class="more-content">
+              <p>
+                Established over 50 years ago, Toter has been at the forefront of innovation in waste
+                management, known for its industry-leading design and heavy-duty materials. Our
+                products are eco-friendly and designed to last longer than typical carts, reducing
+                overall environmental impact.
+              </p>
+              <p>
+                We cater to various sectors, including residential, municipal, and industrial clients,
+                ensuring that every need is met with quality and professionalism. Our signature products,
+                such as two-wheel and caster carts, are engineered for strength and impact resistance.
+              </p>
+              <p>
+                Toter is committed to sustainability, utilizing recycled materials wherever
+                possible in the production of our waste carts. Our innovative solutions help improve
+                waste management systems globally.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- Gallery section -->
+  <section class="gallery_section long_section">
+    <div class="container">
+      <div class="heading_container">
+        <h2>Our Companies and Products</h2>
+<hr>
+<hr>
+      </div>
+      <div class="row img-gallery">
+        <div class="col-md-4">
+          <img src="images/ToterLogo.png" alt="Toter Logo">
+          <ul>
+            <li>Innovative waste management solutions.</li>
+            <li>Eco-friendly, durable products.</li>
+            <li>Trusted by waste haulers and households.</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img src="images/galbreathproductsLogo.png" alt="Galbreathproducts Logo">
+          <ul>
+            <li>Leading provider of waste handling equipment.</li>
+            <li>Focuses on heavy-duty roll-off hoists.</li>
+            <li>Widely used in industrial sectors.</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img src="images/Wastequip.png" alt="Wastequip Logo">
+          <ul>
+            <li>Comprehensive waste handling systems.</li>
+            <li>Offers containers, compactors, and more.</li>
+            <li>Serving municipalities and businesses globally.</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img src="images/ConFab.png" alt="ConFab Logo">
+          <ul>
+            <li>Custom-built waste containers.</li>
+            <li>Specializes in large-capacity solutions.</li>
+            <li>Provides both stationary and mobile options.</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img src="images/wastebuilt.png" alt="Wastebuilt Logo">
+          <ul>
+            <li>One-stop-shop for refuse equipment.</li>
+            <li>Specializes in replacement parts and services.</li>
+            <li>Supporting national waste operations.</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img src="images/containerpros.png" alt="Containerpros Logo">
+          <ul>
+            <li>Expert in container management services.</li>
+            <li>Offers container delivery and maintenance.</li>
+            <li>Serving both residential and commercial clients.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Script for Read More functionality -->
+  <script>
+    function toggleReadMore() {
+      var moreContent = document.getElementById('read-more');
+      var btn = document.querySelector('.read-more-btn');
+      if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+        moreContent.style.display = 'block';
+        btn.innerHTML = 'Read Less';
+      } else {
+        moreContent.style.display = 'none';
+        btn.innerHTML = 'Read More';
+      }
+    }
+  </script>
+
+</body>
+
+<!-- info section -->
+      <section class="info_section long_section">
+
+        <div class="container">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +(123) 456 7890
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Email : Toter@gmail.com
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Location
+              </span>
+            </a>
+          </div>
+
+          <div class="info_top ">
+            <div class="row ">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="info_links">
+                  <h4>
+                    QUICK LINKS
+                  </h4>
+                  <div class="info_links_menu">
+    			                  <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+    			                  <a class="" href="about.html"> About Us</a>
+    			                  <a class="" href="products.html">Products</a>
+    			                  <a class="" href="services.html">Services</a>
+    			                  <a class="" href="contact.html">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
+                <div class="info_post">
+                  <h5>
+                     Address
+                  </h5>
+
+    			                <p>841 Meacham Road
+    Statesville, NC 28677</p>
+                  <div class="post_box">
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="info_form">
+                  <h4>
+                    SIGN UP TO OUR NEWSLETTER
+                  </h4>
+                  <form action="">
+                    <input type="text" placeholder="Enter Your Email" />
+                    <button type="submit">
+                      Subscribe
+                    </button>
+                  </form>
+                  <div class="social_box">
+                    <a href="">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                      <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end info_section -->
+
+
+      <!-- footer section -->
+      <footer class="footer_section">
+        <div class="container">
+
+        </div>
+      </footer>
+      <!-- footer section -->
+
+
+      <!-- jQery -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <!-- bootstrap js -->
+      <script src="js/bootstrap.js"></script>
+      <!-- custom js -->
+      <script src="js/custom.js"></script>
+      <!-- Google Map -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+      <!-- End Google Map -->
+
+
+</html>

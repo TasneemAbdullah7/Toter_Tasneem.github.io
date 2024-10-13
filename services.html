@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Toter_Tasneem</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- Font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- Responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    .more-text {
+      display: none;
+    }
+
+    .read-more-btn {
+      color: green;
+      cursor: pointer;
+    }
+
+    .read-more-btn:hover {
+      text-decoration: underline;
+    }
+
+	   /* Change color of the nav items when hovered */
+	   .navbar-nav .nav-item .nav-link:hover {
+	     color: #4CAF50; /* Change to your preferred color */
+	     background-color: #000; /* Optional: background color on hover */
+	     transition: all 0.3s ease; /* Smooth transition */
+	   }
+
+	   /* You can also change the font weight or add underline for the active link */
+	   .navbar-nav .nav-item.active .nav-link {
+	     font-weight: bold;
+	     text-decoration: underline;
+	  }
+  </style>
+
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section starts -->
+    <header class="header_section long_section px-0">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>Toter</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="services.html">Services <span class="sr-only">(current) </span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="quote_btn-container">
+            <a href="">
+              <span>Login</span>
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+            <form class="form-inline">
+              <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- Services section -->
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>Our Services</h2>
+        <p>Streamline Your Waste Management & Achieve Success with Our Services</p>
+      </div>
+      <div class="row">
+        <!-- Service 1 -->
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/S1.jpg" alt="Assembly and Delivery">
+            </div>
+            <div class="detail-box">
+              <h5>Assembly and Delivery</h5>
+              <p>
+                Toter offers convenient assembly and delivery services, ensuring that your new trash can is ready to use as soon as it reaches your doorstep.
+              </p>
+              <span class="more-text">
+                We take pride in providing seamless delivery, assembling all components before we drop them off at your location, so you will not have to lift a finger.
+              </span>
+              <span class="read-more-btn" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/S2.jpg" alt="Cart Maintenance">
+            </div>
+            <div class="detail-box">
+              <h5>Cart Maintenance</h5>
+              <p>
+                Keep your trash can in perfect shape with our cart maintenance services, including cleaning, repairs, and part replacements.
+              </p>
+              <span class="more-text">
+                We provide detailed inspections to prevent any potential breakdowns, and if a part needs replacing, we ensure it is done quickly to minimize downtime.
+              </span>
+              <span class="read-more-btn" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/S3.jpg" alt="Custom Solutions">
+            </div>
+            <div class="detail-box">
+              <h5>Custom Solutions</h5>
+              <p>
+                Tailor your waste management system with custom options, including unique designs, locking lids, and extra wheels.
+              </p>
+              <span class="more-text">
+                Whether you need cans with branding, color customization, or specialized features like locking mechanisms for added security, we have got you covered.
+              </span>
+              <span class="read-more-btn" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/SustainabilityPrograms.png" alt="Sustainability Programs">
+            </div>
+            <div class="detail-box">
+              <h5>Sustainability Programs</h5>
+              <p>
+                Our sustainability initiatives help reduce your environmental footprint with eco-friendly waste management solutions.
+              </p>
+              <span class="more-text">
+                From recycling programs to waste reduction strategies, our sustainable solutions are designed to maximize environmental benefits while minimizing costs.
+              </span>
+              <span class="read-more-btn" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/WasteAudits.png" alt="Waste Audits">
+            </div>
+            <div class="detail-box">
+              <h5>Waste Audits</h5>
+              <p>
+                Optimize your waste disposal with our professional waste audit services, designed to reduce costs and enhance efficiency.
+              </p>
+              <span class="more-text">
+                We analyze your waste streams to identify areas where you can improve efficiency, cut costs, and promote environmental stewardship.
+              </span>
+              <span class="read-more-btn" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/FleetManagement.png" alt="Fleet Management">
+            </div>
+            <div class="detail-box">
+              <h5>Fleet Management</h5>
+              <p>
+                Manage your waste collection fleet more effectively with our comprehensive fleet management solutions.
+              </p>
+              <span class="more-text">
+                From route optimization to vehicle maintenance, our fleet management solutions ensure your waste collection operations run smoothly and efficiently.
+              </span>
+              <span class="read-more-btn" onclick="toggleText(this)">Read More</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Services section -->
+
+  <!-- Footer section -->
+  <footer class="footer_section">
+    <div class="container">
+
+    </div>
+  </footer>
+  <!-- End footer section -->
+
+  <!-- jQuery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/custom.js"></script>
+
+    <!-- Custom JS -->
+    <script>
+      function toggleText(element) {
+        const moreText = element.previousElementSibling;
+        if (moreText.style.display === "none" || moreText.style.display === "") {
+          moreText.style.display = "inline";
+          element.textContent = "Read Less";
+        } else {
+          moreText.style.display = "none";
+          element.textContent = "Read More";
+        }
+      }
+    </script>
+
+  </body>
+  <!-- info section -->
+        <section class="info_section long_section">
+
+          <div class="container">
+            <div class="contact_nav">
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call : +(123) 456 7890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  Email : Toter@gmail.com
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+            </div>
+
+            <div class="info_top ">
+              <div class="row ">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="info_links">
+                    <h4>
+                      QUICK LINKS
+                    </h4>
+                    <div class="info_links_menu">
+      			                  <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+      			                  <a class="" href="about.html"> About Us</a>
+      			                  <a class="" href="products.html">Products</a>
+      			                  <a class="" href="services.html">Services</a>
+      			                  <a class="" href="contact.html">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
+                  <div class="info_post">
+                    <h5>
+                       Address
+                    </h5>
+
+      			                <p>841 Meacham Road
+      Statesville, NC 28677</p>
+                    <div class="post_box">
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="info_form">
+                    <h4>
+                      SIGN UP TO OUR NEWSLETTER
+                    </h4>
+                    <form action="">
+                      <input type="text" placeholder="Enter Your Email" />
+                      <button type="submit">
+                        Subscribe
+                      </button>
+                    </form>
+                    <div class="social_box">
+                      <a href="">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                      <a href="">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end info_section -->
+
+
+        <!-- footer section -->
+        <footer class="footer_section">
+          <div class="container">
+
+          </div>
+        </footer>
+        <!-- footer section -->
+
+
+        <!-- jQery -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.js"></script>
+        <!-- custom js -->
+        <script src="js/custom.js"></script>
+        <!-- Google Map -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+        <!-- End Google Map -->
+
+
+  </html>
+
+
+
